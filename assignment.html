@@ -33,6 +33,17 @@ li a:hover:not(.active) {
     background: #BDBDBD url("http://islab.uom.gr/images/islab_logo_EN_small.jpg") no-repeat right top;
     margin-right: 200px;
 }
+   
+   <style>
+img {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
 </style>
   </head>
   
@@ -46,5 +57,9 @@ li a:hover:not(.active) {
  
 <h1>Observations of Twitter </h1>
   <p>These images  </p>
-</body>
+<img src="img_forest.jpg" alt="Forest" width="170" height="100">
+<img src="img_mountains.jpg" alt="Mountains" width="170" height="100">
+  
+  
+  </body>
 </html>
