@@ -1,1 +1,1 @@
-# vickyarp.github.io
+Assignment for university lesson
